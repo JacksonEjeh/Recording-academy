@@ -39,3 +39,37 @@ body{
 .news p{
     font-size: 20px;
 }
+.news{
+    /* margin: 50px; */
+    padding-top: 20px;
+}
+.Membership{
+    width: 95%;
+    margin: 0 auto;
+}
+.Membership button{
+    margin-left: 1000px;
+    padding: 10px 50px;
+    position: relative;
+    bottom: 30px;
+    background-color: transparent;
+    color: blue;
+    border: 1px solid blue;
+}
+.Membership div p{
+    font-size: 20px;
+}
+.Membership div h1{
+    font-size: 35px;
+}
+.Membership_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    width: 95%;
+    gap: 10px;
+}
+.mem_text p{
+    margin-top: 10px;
+    font-size: 20px;
+}
