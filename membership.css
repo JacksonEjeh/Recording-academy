@@ -41,10 +41,13 @@
     max-width: 80px;
     cursor: pointer;
     height: 20px;
-    border: none;
+    border: 2px solid blue;
     border-radius: 20px;
     color: white;
-    background-color: red;
+    background-color: blue;
+}
+.box h1{
+    text-align: center;
 }
 /* .box{
     width: 400px;
