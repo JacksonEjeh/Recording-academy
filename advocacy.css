@@ -95,3 +95,42 @@
 .advocacy-page-section3 img {
   width: 100%;
 }
+
+
+
+/* advocacy section 4 */
+
+.advocacy-page-section4 {
+  display: flex;
+  gap: 20px;
+  margin-left: 30%;
+  text-align: center;
+}
+
+.advocacy-page-section4 div {
+  border: 2px solid rgb(226, 226, 204);
+  padding-bottom: 25px;
+  width: 800px;
+}
+
+.advocacy-page-section4 p {
+  color: rgba(0, 0, 0, 0.615);
+  padding: 0 25px 25px 25px;
+}
+
+.advocacy-page-section4 hr {
+  border: 1px solid rgb(226, 226, 204);
+}
+
+.advocacy-page-section4 button {
+  color: white;
+  background-color: rgb(43, 104, 246);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background-color 0.7s;
+}
+
+.advocacy-page-section4 button:hover {
+  background-color:  rgb(66, 101, 182);
+}
