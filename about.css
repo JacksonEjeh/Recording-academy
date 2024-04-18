@@ -1,0 +1,42 @@
+/* About page styles */
+        
+.about-page {
+    font-family: Polaris;
+    margin-top: 30px;
+}
+
+.about-page hr {
+    color: rgb(43, 104, 246);
+    border: 2.5px solid;
+    width: 10%;
+    margin-bottom: 30px;
+}
+/* About page section 1 */
+
+.about-page-section1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-page-large-text {
+    color: rgb(43, 104, 246);
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.about-page-section1 p {
+    color: rgba(0, 0, 0, 0.615);
+    font-size: 25px;
+}
+
+.about-page-section1 img{
+    width: 100%;
+}
+.about-page-blue-text {
+    color: rgb(43, 104, 246);
+}
