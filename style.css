@@ -73,3 +73,33 @@ body{
     margin-top: 10px;
     font-size: 20px;
 }
+.GRAMMY_AWARD{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.GRAMMY_AWARD div button{
+    background-color: transparent;
+    color: blue;
+    border: 1px solid blue;
+    padding: 10px 50px;
+    margin-top: 130px;
+    margin-left: 500px;
+}
+.GRAMMY_AWARD p{
+    font-size: 20px;
+}
+.grammy_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    width: 95%;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.grammy_grid div p{
+    font-size: 20px;
+    margin-top: 10px;
+}
