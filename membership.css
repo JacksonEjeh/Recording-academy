@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.membership-container{
+    background-color: rgb(250, 248, 243);
+    margin: 40px 40px;
+    margin-top: 100px;
+}
+.membership-one h1{
+    font-size: xx-large;
+    font-weight: lighter;
+    color: deepskyblue;
+    margin-bottom: 20px;
+}
+.membership-one p{
+    color: black;
+}
+.membership-one h2{
+    color: black;
+    font-weight: 100;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.membership-grid,.membership-grid1,.membership-grid2,.membership-grid3,.membership-grid4{
+    display: flex;
+    margin-bottom: 20px;
+    column-gap: 40px;
+    color: rgba(61, 93, 235, 0.986);
+}
+.membership-container h3{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Jacquard 24", system-ui;         
+}
+
+.membership-one button{
+    max-width: 80px;
+    cursor: pointer;
+    height: 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+}
+/* .box{
+    width: 400px;
+    height: 200px;
+}
+.box img{
+    width: 400px;
+    height: 200; */
+}
