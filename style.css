@@ -86,7 +86,7 @@ body{
     border: 1px solid blue;
     padding: 10px 50px;
     margin-top: 130px;
-    margin-left: 500px;
+    margin-left: 430px;
 }
 .GRAMMY_AWARD p{
     font-size: 20px;
@@ -100,6 +100,39 @@ body{
     margin-bottom: 30px;
 }
 .grammy_grid div p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.advocacy{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.advocacy button{
+    background-color: transparent;
+    color: blue;
+    border: 1px solid blue;
+    padding: 10px 50px;
+    margin-top: 50px;
+    margin-left: 370px;
+}
+.advocacy_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    width: 95%;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.advocacy div h1{
+    font-size: 35px;
+}
+.advocacy p{
+    font-size: 20px;
+}
+.advocacy_grid p{
     font-size: 20px;
     margin-top: 10px;
 }
