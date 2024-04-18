@@ -45,3 +45,39 @@
 .advocacy-page-section1 img {
   width: 100%;
 }
+
+
+/* advocacy section 2 */
+
+.advocacy-page-section2 {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  grid-template-rows: 0fr 0fr;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.advocacy-img2 {
+  background-image: url('./images/advocacy-images/image2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.advocacy-img3 {
+  background-image: url('./images/advocacy-images/image3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.advocacy-img4 {
+  background-image: url('./images/advocacy-images/image4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.advocacy-page-section2 p {
+  color: rgba(0, 0, 0, 0.615);
+}
