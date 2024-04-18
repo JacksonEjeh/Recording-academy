@@ -66,3 +66,20 @@
 .about-page-section2 div {
     width: 50%;
 }
+
+ /* About page section 3 */
+        
+ .about-page-section3 {
+    grid-template-rows: repeat(6, 1fr);
+    justify-items: center;
+    text-align: center;
+    padding: 4%;
+    width: 80%;
+    margin: auto;
+}
+
+.about-page-section3 p {
+    padding: 10px 0;
+    color: rgba(0, 0, 0, 0.615);
+    font-size: 15px;
+}
