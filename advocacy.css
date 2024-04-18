@@ -1,0 +1,47 @@
+.advocacy-page {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px 0;
+}
+
+
+/* advocacy section 1 */
+
+.advocacy-page-section1 {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  margin-bottom: 30px;
+}
+
+.advocacy-page-blue-text {
+  color: rgb(43, 104, 246)
+}
+
+#txt1 {
+  font-size: 24px;
+}
+
+#txt2 {
+  font-size: 19px;
+}
+
+#txt3 {
+  font-size: 21px;
+}
+
+#txt4 {
+  font-size: 22px;
+}
+
+.advocacy-page-section1 h1 {
+  font-weight: 400;
+}
+
+.advocacy-page-section1 p {
+  color: rgba(0, 0, 0, 0.615);
+}
+
+.advocacy-page-section1 img {
+  width: 100%;
+}
