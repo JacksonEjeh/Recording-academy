@@ -81,3 +81,17 @@
 .advocacy-page-section2 p {
   color: rgba(0, 0, 0, 0.615);
 }
+
+
+
+/* advocacy section 3 */
+
+.advocacy-page-section3 {
+  display: flex;
+  gap: 20px;
+  margin-left: 30%;
+}
+
+.advocacy-page-section3 img {
+  width: 100%;
+}
