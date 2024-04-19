@@ -2,4 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
+=======
+    box-shadow: 2px 2px 10px rgba(229, 229, 229, 0.5);
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.navigation div ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+   
+}
+.navigation div ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.login1{
+    font-size: 17px;
+    margin-left: 400px;
+    padding-top: 30px;
+    position: relative;
+
+}
+.notify{
+    height: 25px;
+    position: relative;
+    top: 30px;
+    margin-right: 70px;
+>>>>>>> 46ceaa713ea89d81642ed9e34757878456ef8264
 }
